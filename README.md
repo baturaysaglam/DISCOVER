@@ -6,7 +6,7 @@ Note that the implementation of the baseline algorithms are heavily based on the
 - [A2C](https://arxiv.org/abs/1602.01783) and [PPO](https://arxiv.org/abs/1707.06347): https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail
 - [SAC](https://arxiv.org/abs/1801.01290): Our implementation
 
-Note that [DDPG](https://arxiv.org/abs/1509.02971) uses the baseline hyper-parameters as outlined in the original [paper](https://arxiv.org/abs/1509.02971).
+[DDPG](https://arxiv.org/abs/1509.02971) uses the baseline hyper-parameters as outlined in the original [paper](https://arxiv.org/abs/1509.02971).
 [TD3](https://arxiv.org/abs/1802.09477) is the fine-tuned version imported from the [author's Pytorch implementation of the TD3 algorithm](https://github.com/sfujim/TD3). 
 Tuned hyper-parameters for [SAC](https://arxiv.org/abs/1801.01290) are imported from [OpenAI Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo), 
 and [A2C](https://arxiv.org/abs/1602.01783) and [PPO](https://arxiv.org/abs/1707.06347) follow the [repository](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail) for the tuned hyper-parameters for the [OpenAI Gym](https://gym.openai.com/) continuous control tasks. 
