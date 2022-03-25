@@ -21,6 +21,7 @@ from utils import update_linear_schedule, get_vec_normalize
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='PPO and its DISCOVER Implementation')
+
     parser.add_argument("--policy", default="DISCOVER_PPO", help='Algorithm (default: DISCOVER_PPO)')
     parser.add_argument("--env", default="Walker2d-v2", help='OpenAI Gym environment name')
     parser.add_argument("--seed", default=0, type=int,

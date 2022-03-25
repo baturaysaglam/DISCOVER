@@ -86,7 +86,7 @@ def evaluate_policy(agent, env_name, seed, discover, eval_episodes=10):
     return avg_reward
 
 
-parser = argparse.ArgumentParser(description='Soft Actor-Critic')
+parser = argparse.ArgumentParser(description='SAC and its DISCOVER Implementation')
 
 parser.add_argument('--policy', default="DISCOVER_SAC", help='Algorithm (default: SAC)')
 parser.add_argument('--policy_type', default="Gaussian",

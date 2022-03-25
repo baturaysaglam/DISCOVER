@@ -19,7 +19,8 @@ from utils import update_linear_schedule, get_vec_normalize
 # A2C tuned MuJoCo hyper-parameters are imported from: https://github.com/hill-a/stable-baselines/issues/249
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='DISCOVER_A2C')
+    parser = argparse.ArgumentParser(description='A2C and its DISCOVER Implementation')
+
     parser.add_argument("--policy", default="DISCOVER_A2C", help='Algorithm (default: DISCOVER_A2C)')
     parser.add_argument("--env", default="Walker2d-v2", help='OpenAI Gym environment name')
     parser.add_argument("--seed", default=0, type=int,

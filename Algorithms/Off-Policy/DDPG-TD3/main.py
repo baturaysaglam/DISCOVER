@@ -51,7 +51,8 @@ def evaluate_policy(agent, env_name, seed, eval_episodes=10):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='DDPG, TD3 and their DISCOVER Implementation')
+
     parser.add_argument("--policy", default="DISCOVER_TD3", help='Algorithm (default: DISCOVER_TD3)')
     parser.add_argument("--env", default="Hopper-v2", help='OpenAI Gym environment name')
     parser.add_argument("--seed", default=0, type=int,
@@ -82,6 +83,8 @@ if __name__ == "__main__":
     parser.add_argument("--load_model", default="", help='Model load file name; if empty, does not load')
 
     args = parser.parse_args()
+
+    print(args)
 
     file_name = f"{args.policy}_{args.env}_{args.seed}"
     print("---------------------------------------")
