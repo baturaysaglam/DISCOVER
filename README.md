@@ -15,7 +15,7 @@ The algorithm is tested on [MuJoCo](https://gym.openai.com/envs/#mujoco) and [Bo
 
 ### Results
 Learning curves are found under [./Learning Curves](https://github.com/baturaysaglam/DISCOVER/tree/main/Learning%20Curves). 
-Corresponding learning figures are found under [./Learning Figures](https://github.com/baturaysaglam/DISCOVER/tree/main/Figures). 
+Corresponding learning figures are found under [./Learning Figures](https://github.com/baturaysaglam/DISCOVER/tree/main/Learning%20Figures). 
 Each learning curve is formatted as NumPy arrays of 1001 evaluations (1001,). 
 Each evaluation corresponds to the average reward from running the policy for 10 episodes without exploration and updates. 
 The randomly initialized policy network produces the first evaluation. Evaluations are performed every 1000 time steps, over 1 million time steps for 10 random seeds.
