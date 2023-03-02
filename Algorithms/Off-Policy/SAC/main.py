@@ -88,10 +88,10 @@ def evaluate_policy(agent, env_name, seed, discover, eval_episodes=10):
 
 parser = argparse.ArgumentParser(description='SAC and its DISCOVER Implementation')
 
-parser.add_argument('--policy', default="DISCOVER_SAC", help='Algorithm (default: SAC)')
+parser.add_argument('--policy', default="DISCOVER_SAC", help='Algorithm (default: DISCOVER_SAC)')
 parser.add_argument('--policy_type', default="Gaussian",
                     help='Policy Type: Gaussian | Deterministic (default: Gaussian)')
-parser.add_argument('--env', default="Hopper-v2", help='OpenAI Gym environment name')
+parser.add_argument('--env', default="Walker2d-v2", help='OpenAI Gym environment name')
 parser.add_argument('--seed', type=int, default=0, help='Seed number for PyTorch, NumPy and OpenAI Gym (default: 0)')
 parser.add_argument('--gpu', type=int, default=0, help='GPU ordinal for multi-GPU computers (default: 0)')
 parser.add_argument('--start_steps', type=int, default=1000, metavar='N',

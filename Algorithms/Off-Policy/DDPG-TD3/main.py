@@ -51,15 +51,15 @@ def evaluate_policy(agent, env_name, seed, eval_episodes=10):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='DDPG, TD3 and their DISCOVER Implementation')
+    parser = argparse.ArgumentParser(description='DDPG, TD3, and their DISCOVER Implementation')
 
     parser.add_argument("--policy", default="DISCOVER_TD3", help='Algorithm (default: DISCOVER_TD3)')
-    parser.add_argument("--env", default="Hopper-v2", help='OpenAI Gym environment name')
+    parser.add_argument("--env", default="Walker2d-v2", help='OpenAI Gym environment name')
     parser.add_argument("--seed", default=0, type=int,
                         help='Seed number for PyTorch, NumPy and OpenAI Gym (default: 0)')
     parser.add_argument("--gpu", default="0", type=int, help='GPU ordinal for multi-GPU computers (default: 0)')
-    parser.add_argument("--start_time_steps", default=1000, type=int, metavar='N',
-                        help='Number of exploration time steps sampling random actions (default: 1000)')
+    parser.add_argument("--start_time_steps", default=25000, type=int, metavar='N',
+                        help='Number of exploration time steps sampling random actions (default: 25000)')
     parser.add_argument("--buffer_size", default=1000000, type=int,
                         help='Size of the experience replay buffer (default: '
                              '1000000)')
@@ -94,6 +94,7 @@ if __name__ == "__main__":
     if "DDPG" in args.policy:
         args.batch_size = 64
         args.tau = 0.001
+        args.start_time_steps = 1000
 
         # Adjust the hyper-parameters with respect to the environment
         args = hyper_parameter_dict_DDPG(args)

@@ -169,6 +169,9 @@ if __name__ == "__main__":
             # Receive the reward and observe the next state
             obs, reward, done, infos = envs.step(action)
 
+            if done[0]:
+                print(infos)
+
             for info in infos:
                 if 'episode' in info.keys():
                     episode_rewards.append(info['episode']['r'])
