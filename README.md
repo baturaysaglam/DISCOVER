@@ -271,14 +271,16 @@ optional arguments:
   
   ### If you use our code or results, please cite the paper:
   ```
-  @misc{https://doi.org/10.48550/arxiv.2210.00293,
-    doi = {10.48550/ARXIV.2210.00293},
-    url = {https://arxiv.org/abs/2210.00293},
-    author = {Saglam, Baturay and Kozat, Suleyman S.},
-    keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
-    title = {Deep Intrinsically Motivated Exploration in Continuous Control},
-    publisher = {arXiv},
-    year = {2022},
-    copyright = {arXiv.org perpetual, non-exclusive license}
-}  
-  ```
+  @Article{Saglam2023,
+  author={Saglam, Baturay
+  and Kozat, Suleyman S.},
+  title={Deep intrinsically motivated exploration in continuous control},
+  journal={Machine Learning},
+  year={2023},
+  month={Oct},
+  day={26},
+  issn={1573-0565},
+  doi={10.1007/s10994-023-06363-4},
+  url={https://doi.org/10.1007/s10994-023-06363-4}
+  }  
+  ```  
