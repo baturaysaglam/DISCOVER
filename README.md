@@ -272,15 +272,15 @@ optional arguments:
   ### If you use our code or results, please cite the paper:
   ```
   @Article{Saglam2023,
-  author={Saglam, Baturay
-  and Kozat, Suleyman S.},
-  title={Deep intrinsically motivated exploration in continuous control},
-  journal={Machine Learning},
-  year={2023},
-  month={Oct},
-  day={26},
-  issn={1573-0565},
-  doi={10.1007/s10994-023-06363-4},
-  url={https://doi.org/10.1007/s10994-023-06363-4}
+    author={Saglam, Baturay
+    and Kozat, Suleyman S.},
+    title={Deep intrinsically motivated exploration in continuous control},
+    journal={Machine Learning},
+    year={2023},
+    month={Oct},
+    day={26},
+    issn={1573-0565},
+    doi={10.1007/s10994-023-06363-4},
+    url={https://doi.org/10.1007/s10994-023-06363-4}
   }  
   ```  
