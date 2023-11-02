@@ -1,5 +1,5 @@
 # Deep Intrinsically Motivated Exploration in Continuous Control
-PyTorch implementation of the [_Deep Intrinsically Motivated Exploration_ algorithm (DISCOVER)](https://arxiv.org/abs/2210.00293). 
+PyTorch implementation of the [_Deep Intrinsically Motivated Exploration_ algorithm (DISCOVER)](https://doi.org/10.1007/s10994-023-06363-4). 
 Note that the implementation of the baseline algorithms are heavily based on the following repositories:
 
 - [DDPG](https://arxiv.org/abs/1509.02971) and [TD3](https://arxiv.org/abs/1802.09477): https://github.com/sfujim/TD3
