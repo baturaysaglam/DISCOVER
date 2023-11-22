@@ -1,4 +1,24 @@
 # Deep Intrinsically Motivated Exploration in Continuous Control
+
+### Published!
+If you use our code and results, please cite the paper.
+  ```
+  @Article{Saglam2023,
+      author={Saglam, Baturay
+      and Kozat, Suleyman S.},
+      title={Deep intrinsically motivated exploration in continuous control},
+      journal={Machine Learning},
+      year={2023},
+      month={Oct},
+      day={26},
+      issn={1573-0565},
+      doi={10.1007/s10994-023-06363-4},
+      url={https://doi.org/10.1007/s10994-023-06363-4}
+  }  
+  ```  
+
+
+#
 PyTorch implementation of the [_Deep Intrinsically Motivated Exploration_ algorithm (DISCOVER)](https://doi.org/10.1007/s10994-023-06363-4). 
 Note that the implementation of the baseline algorithms are heavily based on the following repositories:
 
@@ -268,19 +288,3 @@ optional arguments:
   --load_model LOAD_MODEL
                         Model load file name; if empty, does not load
   ```
-  
-  ### If you use our code or results, please cite the paper:
-  ```
-  @Article{Saglam2023,
-    author={Saglam, Baturay
-    and Kozat, Suleyman S.},
-    title={Deep intrinsically motivated exploration in continuous control},
-    journal={Machine Learning},
-    year={2023},
-    month={Oct},
-    day={26},
-    issn={1573-0565},
-    doi={10.1007/s10994-023-06363-4},
-    url={https://doi.org/10.1007/s10994-023-06363-4}
-  }  
-  ```  
