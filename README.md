@@ -1,6 +1,5 @@
 # Deep Intrinsically Motivated Exploration in Continuous Control
 
-### Published!
 If you use our code and results, please cite the paper.
   ```
   @Article{Saglam2023,
